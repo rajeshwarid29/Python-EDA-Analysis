@@ -1,17 +1,18 @@
-Title: Exploratory Data Analysis on YouTube data using Pandas.
+**Title: Exploratory Data Analysis on YouTube data using Pandas.**
 
-Domain: Social media
+**Domain: Social media**
 
-Context and Content: In a fairly recent move by Youtube, it announced the decision to hide the
+**Context and Content:**
+In a fairly recent move by Youtube, it announced the decision to hide the
 number of dislikes from users around November 2021. However, the official YouTube Data API allowed you to
 get information about dislikes until December 13, 2021. Doing an EDA-exercise can help to draw some unseen
 insights from this dataset.
 
-Objective:
+**Objective:**
 To do data analysis and explore the youtube dislikes dataset using numpy and pandas libraries and drive
 meaningful insights by performing Exploratory data analysis.
 
-Data Description:
+**Data Description:**
 YouTube Dislikes Dataset:
 ● This dataset contains information about trending YouTube videos from August 2020 to December 2021
 for the USA, Canada, and Great Britain.
@@ -19,7 +20,7 @@ for the USA, Canada, and Great Britain.
 collected just before December 13. The information was collected by videos that had been trending in
 the USA, Canada, and Great Britain for a year prior.
 
-Attribute Information:
+**Attribute Information:**
 SL.No Column Name Description
 1. Video ID Unique video id.
 2. Title Video title.
