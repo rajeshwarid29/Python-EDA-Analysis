@@ -1,18 +1,6 @@
-**Title: Exploratory Data Analysis on YouTube data using Pandas.**
+**Title: Exploratory Data Analysis on YouTube dislikes data using Pandas.**
 
 **Domain: Social media**
-
-**Context and Content:**
-
-In a fairly recent move by Youtube, it announced the decision to hide the
-number of dislikes from users around November 2021. However, the official YouTube Data API allowed you to
-get information about dislikes until December 13, 2021. Doing an EDA-exercise can help to draw some unseen
-insights from this dataset.
-
-**Objective:**
-
-To do data analysis and explore the youtube dislikes dataset using numpy and pandas libraries and drive
-meaningful insights by performing Exploratory data analysis.
 
 **Data Description:**
 
@@ -25,18 +13,34 @@ for the USA, Canada, and Great Britain.
 collected just before December 13. The information was collected by videos that had been trending in
 the USA, Canada, and Great Britain for a year prior.
 
-**Attribute Information:**
+**Objective:**
 
-SL.No Column Name Description
-1. Video ID Unique video id.
-2. Title Video title.
-3. Channel ID Id of the channel.
-4. Channel Title Title of the channel.
-5. Published at Video publication date.
-6. View count Number of views.
-7. Likes Number of likes.
-8. Dislikes Number of dislikes.
-9. Comment Count Number of comments.
-10. Tags Tags (in one string).
-11. Description Video description.
-12. Comments 20 Video comments (in one string)
+In a fairly recent move by Youtube, it announced the decision to hide the
+number of dislikes from users around November 2021. However, the official YouTube Data API allowed to
+get information about dislikes until December 13, 2021. Doing an EDA-exercise can help to draw some unseen
+insights from this dataset.
+
+**Task:**
+
+To do data analysis and explore the youtube dislikes dataset using numpy and pandas libraries and drive
+meaningful insights by performing Exploratory data analysis.
+
+**Result:**
+
+Here's a concise summary of the key findings from the YouTube Dislike Dataset project:
+
+Unique Counts: The analysis revealed the total counts of unique video IDs, channel IDs, and channel titles, providing insight into the dataset's diversity.
+
+Top and Bottom Channels: The top 10 channels with the highest video counts were identified, alongside the bottom 10 channels with the lowest counts, offering a glimpse into prolific creators and lesser-known channels.
+
+Impact of Views on Dislikes: Examination of the relationship between views and dislikes unveiled potential dynamics in audience engagement.
+
+Monthly Publication Trends: Trends in video publication rates were observed over time, shedding light on patterns in content creation activity.
+
+Extreme Liked and Disliked Videos: The titles of videos with the highest and lowest numbers of likes and dislikes were highlighted, showcasing notable examples within the dataset.
+
+RelationshiP between views and dislikes: The scatter plot, showing that videos with higher view counts generally tend to have higher dislike counts.
+Thus, we can conclude that the number of views does have an effect on how many people disliked the video, with more views generally leading to more dislikes.
+
+
+
