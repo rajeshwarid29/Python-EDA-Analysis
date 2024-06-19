@@ -22,7 +22,7 @@ insights from this dataset.
 
 **Action:**
 
-To do data analysis and explore the youtube dislikes dataset using numpy and pandas libraries and drive
+To do data analysis and explore the youtube dislikes dataset using Python's libraries numpy and pandas and drive
 meaningful insights by performing Exploratory data analysis.
 
 **Result:**
