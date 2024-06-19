@@ -27,8 +27,6 @@ meaningful insights by performing Exploratory data analysis.
 
 **Result:**
 
-Here's a concise summary of the key findings from the YouTube Dislike Dataset project:
-
 Unique Counts: The analysis revealed the total counts of unique video IDs, channel IDs, and channel titles, providing insight into the dataset's diversity.
 
 Top and Bottom Channels: The top 10 channels with the highest video counts were identified, alongside the bottom 10 channels with the lowest counts, offering a glimpse into prolific creators and lesser-known channels.
@@ -40,7 +38,8 @@ Monthly Publication Trends: Trends in video publication rates were observed over
 Extreme Liked and Disliked Videos: The titles of videos with the highest and lowest numbers of likes and dislikes were highlighted, showcasing notable examples within the dataset.
 
 RelationshiP between views and dislikes: The scatter plot, showing that videos with higher view counts generally tend to have higher dislike counts.
-Thus, we can conclude that the number of views does have an effect on how many people disliked the video, with more views generally leading to more dislikes.
+
+In conclusion, the number of views does have an effect on how many people disliked the video, with more views generally leading to more dislikes.
 
 
 
